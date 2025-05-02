@@ -25,7 +25,7 @@ struct Arguments {
 
 namespace ArgumentParsing {
     static Arguments Parse(int argc, char** argv) {
-        cxxopts::Options options("LichessToDB", "Downloads Lichess data, extracts it, then inserts into local Postgres instance");
+        cxxopts::Options options("lidata", "Downloads Lichess data, extracts it, then inserts into local Postgres instance");
 
         options.add_options()
             ("h,help", "Print usage")
