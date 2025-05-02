@@ -16,7 +16,7 @@ cmake --build build --config Release
 Output of `./lidata --help`
 
 ```
-Downloads Lichess data, extracts it, then inserts into local Postgres instance
+Downloads Lichess data, extracts it, then inserts into a csv file.
 Usage:
   LichessToDB [OPTION...]
 
