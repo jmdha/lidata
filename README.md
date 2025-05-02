@@ -4,6 +4,7 @@ A tool to download and filter Lichess data.
 ## Building
 > [!IMPORTANT]
 > It depends on [curl](https://curl.se/libcurl/). This should already be installed on any linux distribution, but should be easy to install on windows or mac.
+
 This tool uses [cmake](https://cmake.org/) to build.
 Navigate to the directory wherein the project resides and create a build folder.
 ```
