@@ -18,7 +18,7 @@ Output of `./lidata --help`
 ```
 Downloads Lichess data, extracts it, then inserts into a csv file.
 Usage:
-  LichessToDB [OPTION...]
+  lidata [OPTION...]
 
   -h, --help             Print usage
   -t, --test             Runs test
