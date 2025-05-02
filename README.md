@@ -14,6 +14,7 @@ cmake --build build --config Release
 
 ## Using
 Output of `./lidata --help`
+
 ```
 Downloads Lichess data, extracts it, then inserts into local Postgres instance
 Usage:
@@ -34,4 +35,4 @@ Usage:
                          2 - Abandoned
                          3 - RulesInfranction
                          4 - Unterminated
-``
+```
